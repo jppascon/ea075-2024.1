@@ -1,5 +1,5 @@
-# `Gate driver de MOSFET`
-# `MOSFET Gate driver`
+# `Controlador de MOSFETs`
+# `MOSFETs Controller`
 
 ## Apresentação
 
