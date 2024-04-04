@@ -35,22 +35,23 @@ Dessa forma, como funcionalidade do projeto, propomos a implementação de um al
 
 Também, é muito importante, em dispositivos de tal forma, monitorar alguns parâmetros de qualidade e falhas e feedback do que acontece. Usaremos alguns leds para isso e espicificaremos essas falhas à medida que o projeto caminha.
 
-### Configurabilidade
-
 Duas configurações de leitrua devem ser feitas: 
 - Ler o potênciometro de frequência
 - Ler o potênciometro de amplitude
+- Detectar se algum dos potenciômetros morrer
+- Detectar sobrecorrentes
+- Monitoramento da temperatura
 
  ### Tratamento de Eventos
 
- Os eventos a serem tratados pelo sistema e que podem ser considerados como periódicos são aqueles que devem ser tratados na geração de um PWM com carrier technique.
+Não esperamos que o dispositivo seja inteligente o suficiente para tratar de falhas, mas que pelo menos passe um feedback de qual falha ocorreu.
 
-- Monitoramento dos potenciômetros
-- Monitoramento da tensão de saída
+- LED vermelho - Temperatura alta
+- LED verde - Potênciometros desconectados
+- LED Azul - Problemas com a corrente
 
-Os eventos a serem tratados pelo sistema e que podem ser considerados como não-periódicos, são:
+![image](https://github.com/jppascon/ea075-2024.1/assets/163413469/6c2f74a3-67c1-4651-83fb-c9299a4416da)
 
- - Ativação do estado proibido do MOSFETs
 
 ## Referencias
 
