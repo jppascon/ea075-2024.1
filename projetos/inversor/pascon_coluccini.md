@@ -33,6 +33,8 @@ Embora seja fato que diversos gate drivers comerciais já existentes e bem estab
 
 Dessa forma, como funcionalidade do projeto, propomos a implementação de um algoritmo em um DSP, que realiza a leitura de potenciômetros, a fim controlar sua frequência de operação e amplitude da onda senoidal resultante de uma fonte de corrente contínua.
 
+Também, é muito importante, em dispositivos de tal forma, monitorar alguns parâmetros de qualidade e falhas e feedback do que acontece. Usaremos alguns leds para isso e espicificaremos essas falhas à medida que o projeto caminha.
+
 ### Configurabilidade
 
 Duas configurações de leitrua devem ser feitas: 
